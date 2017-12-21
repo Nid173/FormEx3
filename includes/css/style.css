@@ -1,0 +1,57 @@
+*{
+	margin:0px auto;
+	color:#8cb48b;
+}
+body{
+	background:black;
+	width:100%;
+	padding: 0px; 
+	overflow: hidden;  
+}
+#BigBikeW{
+	position: absolute;
+	left : -150%;
+	width : 1200px;
+	height: 100%;
+	background : url(../../SVG/BigBike.svg) no-repeat;
+	background-size:50%;
+	background-position: center bottom -75px;
+	
+	
+}
+#mDiv{
+	background-color:rgba(72, 78, 71, 0.95);
+	height:700px;
+	width:600px;
+	border:solid;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 40%;
+	border-color: #00ff52;
+	border-bottom-width: thick;
+	
+}
+h1{
+	align-self: auto;
+	text-align: center;
+	text-fill-color: #00ff52;
+}
+#Fullform{
+	
+}
+#bodybackground{
+	
+	margin: 0 auto;
+	position: absolute;
+	overflow: hidden;  
+	height:100%;
+	width:100%;
+	background-color: black;
+			
+				background: url(../../SVG/grass.svg);
+				background-position-y: 105%;
+				background-size: 100px;
+				background-repeat: repeat-x;
+}
+.randomDivs{
+	position:absolute;
+}
